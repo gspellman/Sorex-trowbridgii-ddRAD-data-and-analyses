@@ -1,0 +1,8 @@
+BPP reconfigured run summary
+Date: 2026-03-01 18:28:31 MST
+IQ-TREE guide source: /Users/gspellman/Trowbridgii_analyses/Stacks analysis of ddRAD data/stacks_refmap_sorex_excl_MVZ216210_2026-02-26_clean/downstream_analysis_2026-02-23/iqtree_analysis_2026-03-01/trow_individuals_biallelic_iqtree.contree
+IQ-TREE-derived population guide tree: (((Sierra_1:0.1333202724,Sierra_2:0.0836721975):0.2736020054,((North:0.1911468317,Sierra_3:0.1372228428):0.0583447617,North_Coast:0.1365682539):0.0402899243):1e-06,South_Coast:0.2909357973);
+Samples: 12
+SNPs: 100
+ESS target: 200
+Reached target: FALSE

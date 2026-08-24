@@ -1,0 +1,6 @@
+Observed_feature_from_model	Predicted_model	Posterior_like	DelimitR_rank	RF_model_choice_OOB_accuracy
+M4_ThreeSpecies	M4_ThreeSpecies	0.8316170634920634	1	1.0
+M5_CoastVsInland	M5_CoastVsInland	0.7899603174603176	2	1.0
+M2_NorthMerge	M2_NorthMerge	0.7475000000000002	3	1.0
+M1_6pop	M1_6pop	0.6260416666666667	4	1.0
+M3_SierraMerge	M3_SierraMerge	0.5766865079365079	5	1.0

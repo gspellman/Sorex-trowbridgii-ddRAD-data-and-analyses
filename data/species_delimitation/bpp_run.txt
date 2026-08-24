@@ -1,0 +1,570 @@
+Analysis started at: Sun Mar  1 18:18:52 2026
+Using BPP version: 4.8.7
+pver sha1: a84db12a15c6d7350cc3f9510a6d790972400af1
+Command: /Users/gspellman/Downloads/bpp-4.8.7-macos-aarch64/bin/bpp --cfile /Users/gspellman/Trowbridgii_analyses/Stacks analysis of ddRAD data/stacks_refmap_sorex_excl_MVZ216210_2026-02-26_clean/downstream_analysis_2026-02-23/species_delimitation_2026-02-25_ess_bpp_reconfigured/bpp_attempt/bpp.ctl 
+
+Seed: 20260226 (fixed by user)
+Initial species tree: (((Sierra_1:0.1333202724,Sierra_2:0.0836721975):0.2736020054,((North:0.1911468317,Sierra_3:0.1372228428):0.0583447617,North_Coast:0.1365682539):0.0402899243):1e-06,South_Coast:0.2909357973);
+
+Summary of alignments *before* phasing sequences:
+ Locus | Model | Sequences | Length | Ambiguous sites | Compressed | Base freqs 
+-------+-------+-----------+--------+-----------------+------------+------------
+     1 |  JC69 |        12 |    100 |              62 |         69 |      Fixed 
+
+Writing multilocus alignments with compressed site patterns in bpp_run.compressed-aln.phy
+
+COMPRESSED ALIGNMENTS AFTER PHASING OF DIPLOID SEQUENCES
+
+24 202 P
+^MVZ231861.1     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAT TTTTTTTTAA AAAATTTTTT TTTTAAAAAC CC
+^MVZ231861.2     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAT TTTTTTTTAA AAAATTTTTT TTTTCCCCCA AA
+^MVZ241098.1     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAT TTTTTTTTAA AAAATTTTAA AACCAATTTT TT
+^MVZ241098.2     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAT TTTTTTTTAA AAAATTTTCC CCAAAATTTT TT
+^UAM101701.1     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATAAAAA AAAAAAAAAA AAAAAAAAAA ACCCCCCCCC CCCCCCCCTT TTTTTTTTTA AAAAAAAATT TTTTAACCAA AAAAAAAAAA AA
+^UAM101701.2     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATAAAAA CCCCCCCCCC CCCCCCCCCC CAAAAAAAAA AAAAAAAATT TTTTTTTTTA AAAAAAAATT TTTTCCAAAA AAAAAAAAAA AA
+^UAM41739.1      AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATAATTT AAAAAAAAAA AAAATTTTTT TAAAAAAAAA ATTTTTTTTT TTTTTTTTTA AAAAAAAATT TTTTAAAAAA AAAAAAAAAA AA
+^UAM41739.2      AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAATACTTT AAAAAAAAAA AAAATTTTTT TAAAAAAAAA ATTTTTTTTT TTTTTTTTTA AAAAAAAATT TTTTAAAAAA AAAAAAAAAA AA
+^MVZ223022.1     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAACC CCCCCCCCCC CTTTATAAAA AAAAAAAACC CCTTAAAAAA CAAAAAACCT TAAAAAACAA AAAAAAAAAA AAAAAAAACC CCCCAAAAAA AAAAACAAAA AA
+^MVZ223022.2     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA ACCCCCCCCC CCCCCCCCAA AAAAAAAAAA ATTTATAAAA AAAACCCCAA AATTAAAAAC AAAAACCAAT TAAAAACAAA AAACCCCCCA AAAAAAAAAA AAAAAAAAAA AAAACAAAAA AA
+^MVZ228428.1     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA CCCCCCTTTT TAAAAAAAAA AACCCCCTAA AAAAACCCCC TAATACAAAC AATTAAATAA ATATAAAAAA AAATTATATA TAAAAAAAAA AAAAAACCCA AAAAAAAAAA ACCCAAAAAA AAAATTAAAA AA
+^MVZ228428.2     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAACCCCCC AAAAAATTTT TAAAAAACCC CCAAAAATAA CCCCCAAAAA TACTAAAACA AATTACCTAC CTATAAAAAA AAATTATATA TAAAAAAAAA AAACCCAAAA AAAAAAAACC CAAAAAAAAA AAAATTAAAA AA
+^MVZ199508.1     AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA CCCCCCCCCC CCCCCCTTTT TTTTAAAAAT AAAAATATTT TAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAATAA ATAAAAACCA AAAAAATATA AAAACCAAAA AAAAAAAAAT AAAAAAAAAA AAAATTTTAA ACAAAAATTA TT
+^MVZ199508.2     AAAAAAAAAA AAAAAAAAAA CCCCCCCCCC CCCCCCCCCC AAAAAAAAAA AAAAAATTTT TTTTAAAAAT AAAAATATTT TAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAATAA ATAAACCAAA AAAAAATATA AACCAAAAAA AAAAAAAAAT AAAAAAAAAA AAAATTTTAA CAAAAAATTA TT
+^MVZ199511.1     AAAAAAAAAA AAAAACCCTT AAAAAAAAAA AACCCCCCCT AAAAAAAAAA CCCCCTATTT TTTCAAAAAT AAAAATATTT TAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAACACA AAAAAAAAAA AAACACAAAA ACCAAAAAAT AAAAAAAAAA AAAATTTTAA TTAAAAATTA TT
+^MVZ199511.2     AAAAAAAAAA AACCCAAATT AAAAACCCCC CCAAAAAAAT AAAAACCCCC AAAAATCTTT TTTAAAAAAT AAAAATATTT TAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAACAA ACAAACACAA AAAAAACACA AACACAAAAC CAAAAAAAAT AAAAAAAAAA AAAATTTTAA TTAAAAATTA TT
+^MVZ217992.1     AAAAAAAAAC CTAAAAAAAA AAACCAAAAA AAAAAAAAAA AAACCAAAAA AAAAAAAAAA AAAAAAAACA AAAACAAAAC CAAAACCAAA ACAAAACAAA AAAACAAAAC AAAATAAAAA AAACAAAAAA AAAAAAAAAA AAAACAAAAA AAAAAAAAAT TTTAAAAAAA TTTAAACCAA AAAATTTTAA AAAAAAAACA CA
+^MVZ217992.2     AAAAAAACCA ATAAAAAAAA ACCAAAAAAA AAAAAAAAAA ACCAAAAAAA AAAAAAAAAA AAAAAAACAA AAACAAACCA AAACCAAAAA CAAAACAAAA AAACAAAACA AAAATAAAAA AACAAAAAAA AAAAAAAAAA AAACAAAAAA AAAAAAAAAT TTTACCACCA TTTACCAAAC CACCTTTTAA AAAAAAACAA AC
+^MVZ219014.1     AAAAAAAACA CAAAAAAAAA AACACAAAAA ACAAAAAACA AACACAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAACA CACACACAAA AAAAAAAAAC AAAAAAAAAA AAAATAAAAA ACAAAACAAA CAAAAAAAAA AACAAAAAAA AAAAAAAAAT TTTAACAACA TACAACACAA CAACACCATA AATAAAAAAA AA
+^MVZ219014.2     AAAAAAACAC AAAAAAAAAA ACACAAAAAA CAAAAAACAA ACACAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAACAC ACACACAAAA AAAAAAAACA AAAAAAAAAA AAAATAAAAA CACCACAAAC AAAAAAAAAA ACACCAAAAA AAAAAAAAAT TTTACAACAA TCAACACAAC AACACAACTA AATAAAAAAA AA
+^MVZ207124.1     AAAACTTAAA AAATTATTAC AAAAAAACTT AAAACTTAAT AAAAAAACTT AACTTTAAAT TTCAAACAAT AACAATATTT TAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAT AAAAAAAAAA AAAATTTTAA TTAAAAATTA TT
+^MVZ207124.2     AAACATTAAA AAATTATTCA AAAAACCATT AACCATTAAT AAAAACCATT CCATTTAACT TTAAACAAAT ACAAATATTT TAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAT AAAAAAAAAA AAAATTTTAA TTAAAAATTA TT
+^MVZ224618.1     ACTTTATAAA AAAATAATTT AAAAAATTAT AAATTATAAT AAAAAATTAT ATTATTAATA TCTAATTAAT ATTAATATTT TAAAAAAAAC AAAACAAAAA AACAAAACAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA CACAAAAAAT AAAAAAAAAA AAAATTTTAA TTAAAAATTA TT
+^MVZ224618.2     CATTTATAAA AAAATAATTT AAAAAATTCT AAATTCTAAT AAAAAATTCT ATTCTTAATC TATAATTAAT ATTAATATTT TAAAAAAACA AAACAAAAAA ACAAAACAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAC ACAAAAAAAT AAAAAAAAAA AAAATTTTAA TTAAAAATTA TT
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+
+Summary of alignments *after* phasing sequences:
+ Locus | Model | Sequences | Length | Ambiguous sites | Compressed | Base freqs 
+-------+-------+-----------+--------+-----------------+------------+------------
+     1 |  JC69 |        24 |    100 |              62 |        202 |      Fixed 
+
+
+Per-locus sequences in data and 'species&tree' tag:
+C.File | Data |                Status                | Population
+-------+------+--------------------------------------+-----------
+     4 |    4 | [OK]                                 | North     
+     4 |    4 | [OK]                                 | North_Coast
+     4 |    4 | [OK]                                 | Sierra_1  
+     4 |    4 | [OK]                                 | Sierra_2  
+     4 |    4 | [OK]                                 | Sierra_3  
+     4 |    4 | [OK]                                 | South_Coast
+
+
+Initial MSC density and log-likelihood of observing data:
+log-PG0 = 156.912025   log-L0 = -2420.829493
+
+0:00 taken to read and process data..
+Restarting timer...
+
+
+-*- Terms index -*-
+
+  Prgs: progress of MCMC run (negative progress means burnin)
+  Gage: gene-tree age proposal
+  Gspr: gene-tree SPR proposal
+   th1: species tree theta proposal (tips)   (sliding window)
+   th2: species tree theta proposal (inner)  (sliding window)
+   thg: species tree theta proposal (inner)  (gibbs sampler)
+   tau: species tree tau proposal
+   mix: mixing proposal
+  stree proposal:  0.1000 for Ssnl, 0.9000 for Sspr
+    sp: number of delimited species
+    np: number of parameters
+  mldp: most likely delimitation and probability
+theta1: root node mean theta
+  tau1: root node mean tau
+log-PG: log-probability of gene trees (MSC)
+ log-L: mean log-L of observing data
+
+     |                 Acceptance proportions                  |
+Prgs | Gage Gspr  th1  th2  thg  tau  mix   Sspr   Ssnl     rj | sp np        mldp theta1    tau1      log-PG        log-L
+-------------------------------------------------------------------------------------------------------------------------
+
+                     Gage    Gspr     th1     th2     tau     mix  
+Current Pjump:     0.33165 0.53517 0.85371 0.36390 0.48052 0.07240
+Current finetune:  5.00000 0.00100 0.00050 0.00200 0.00100 0.30000
+New finetune:      5.63098 0.00219 0.00420 0.00252 0.00185 0.06725
+
+=> 'finetune = 1 Gage:5.630980 Gspr:0.002192 th1:0.004195 th2:0.002525 tau:0.001846 mix:0.067250'
+
+
+                     Gage    Gspr     th1     th2     tau     mix  
+Current Pjump:     0.33339 0.44117 0.22540 0.30458 0.41938 0.24550
+Current finetune:  5.63098 0.00219 0.00420 0.00252 0.00185 0.06725
+New finetune:      6.38178 0.00357 0.00304 0.00257 0.00280 0.05358
+
+=> 'finetune = 1 Gage:6.381782 Gspr:0.003573 th1:0.003043 th2:0.002570 tau:0.002805 mix:0.053580'
+
+
+                     Gage    Gspr     th1     th2     tau     mix  
+Current Pjump:     0.33269 0.37227 0.34449 0.30042 0.38892 0.28410
+Current finetune:  6.38178 0.00357 0.00304 0.00257 0.00280 0.05358
+New finetune:      7.21434 0.00464 0.00359 0.00257 0.00385 0.05031
+
+=> 'finetune = 1 Gage:7.214339 Gspr:0.004642 th1:0.003589 th2:0.002574 tau:0.003855 mix:0.050313'
+
+   0%  0.33 0.32 0.27 0.30 0.83 0.36 0.28 0.2638 0.0921 0.0000    6 16 P[6]=1.0000 0.0048  0.0507    22.33304  -1235.07122  0:09
+
+                     Gage    Gspr     th1     th2     tau     mix  
+Current Pjump:     0.33280 0.32433 0.27164 0.30152 0.35990 0.27740
+Current finetune:  7.21434 0.00464 0.00359 0.00257 0.00385 0.05031
+New finetune:      8.15899 0.00509 0.00320 0.00259 0.00480 0.04597
+
+=> 'finetune = 1 Gage:8.158987 Gspr:0.005090 th1:0.003203 th2:0.002589 tau:0.004799 mix:0.045974'
+
+   5%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2831 0.1107 0.0000    6 16 P[6]=1.0000 0.0046  0.0512    30.68845  -1235.34135  0:38
+  10%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2777 0.1116 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    35.06526  -1235.31099  1:06
+  15%  0.33 0.31 0.32 0.30 0.83 0.33 0.28 0.2783 0.1115 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    28.40678  -1235.36522  1:34
+  20%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2772 0.1113 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    16.25542  -1235.34217  2:03
+  25%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2754 0.1119 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    22.88114  -1235.37253  2:31
+  30%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2748 0.1116 0.0000    6 16 P[6]=1.0000 0.0046  0.0514     6.92780  -1235.34395  3:00
+  35%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2742 0.1109 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    20.22125  -1235.34106  3:27
+  40%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2745 0.1106 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    14.05512  -1235.32240  3:56
+  45%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2745 0.1110 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    20.30472  -1235.34277  4:25
+  50%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2744 0.1113 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    43.21602  -1235.34306  4:53
+  55%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2747 0.1115 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    24.01776  -1235.33750  5:21
+  60%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2756 0.1115 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    35.35108  -1235.33624  5:49
+  65%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2753 0.1118 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    33.03361  -1235.34729  6:18
+  70%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2756 0.1118 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    13.59058  -1235.36486  6:46
+  75%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2755 0.1116 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    29.00528  -1235.36886  7:14
+  80%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2759 0.1114 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    36.12422  -1235.37124  7:43
+  85%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2758 0.1117 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    30.27430  -1235.37492  8:11
+  90%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2761 0.1118 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    14.03153  -1235.36929  8:40
+  95%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2761 0.1115 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    14.21230  -1235.37696  9:08
+ 100%  0.33 0.31 0.32 0.29 0.83 0.33 0.28 0.2765 0.1118 0.0000    6 16 P[6]=1.0000 0.0046  0.0513    24.72710  -1235.37442  9:37
+
+9:37 spent in MCMC
+
+
+(A) List of best models (count postP #species SpeciesTree)
+77088 0.321200 0.321200 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, South_Coast)), Sierra_3), (Sierra_1, Sierra_2));
+25952 0.108133 0.429333 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), (North_Coast, South_Coast)), (Sierra_1, Sierra_2));
+19733 0.082221 0.511554 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, South_Coast)), (Sierra_1, Sierra_2)), Sierra_3);
+17946 0.074775 0.586329 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), South_Coast), Sierra_3), (Sierra_1, Sierra_2));
+16778 0.069908 0.656238 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_3), South_Coast), (Sierra_1, Sierra_2));
+11946 0.049775 0.706013 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, South_Coast)), ((Sierra_1, Sierra_2), Sierra_3));
+ 6832 0.028467 0.734479 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, South_Coast), Sierra_3)), (Sierra_1, Sierra_2));
+ 5053 0.021054 0.755533 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), ((North_Coast, South_Coast), (Sierra_1, Sierra_2)));
+ 4878 0.020325 0.775858 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_3), (Sierra_1, Sierra_2)), South_Coast);
+ 4521 0.018838 0.794696 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), South_Coast), (Sierra_1, Sierra_2)), Sierra_3);
+ 4444 0.018517 0.813213 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), (Sierra_1, Sierra_2)), (North_Coast, South_Coast));
+ 3432 0.014300 0.827512 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), Sierra_3), ((Sierra_1, Sierra_2), South_Coast));
+ 2922 0.012175 0.839688 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, South_Coast)), Sierra_3), Sierra_2), Sierra_1);
+ 2912 0.012133 0.851821 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, South_Coast)), Sierra_3), Sierra_1), Sierra_2);
+ 2879 0.011996 0.863817 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), South_Coast), ((Sierra_1, Sierra_2), Sierra_3));
+ 2079 0.008663 0.872479 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), North_Coast), South_Coast), (Sierra_1, Sierra_2));
+ 1856 0.007733 0.880213 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, South_Coast), (Sierra_1, Sierra_2))), Sierra_3);
+ 1124 0.004683 0.884896 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_3, South_Coast)), (Sierra_1, Sierra_2));
+ 1072 0.004467 0.889363 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((Sierra_1, Sierra_2), Sierra_3)), (North_Coast, South_Coast));
+ 1069 0.004454 0.893817 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (North_Coast, South_Coast)), Sierra_2), Sierra_1);
+ 1038 0.004325 0.898142 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (North_Coast, South_Coast)), Sierra_1), Sierra_2);
+ 1035 0.004313 0.902454 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, South_Coast)), Sierra_2), Sierra_1), Sierra_3);
+ 1009 0.004204 0.906658 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_2)), (North_Coast, South_Coast)), Sierra_3);
+  988 0.004117 0.910775 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, South_Coast)), Sierra_1), Sierra_2), Sierra_3);
+  945 0.003938 0.914713 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, South_Coast), (Sierra_1, Sierra_2)), Sierra_3));
+  941 0.003921 0.918633 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, South_Coast), Sierra_3), (Sierra_1, Sierra_2)));
+  936 0.003900 0.922533 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, South_Coast), ((Sierra_1, Sierra_2), Sierra_3)));
+  877 0.003654 0.926188 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_1, Sierra_2)), ((North_Coast, South_Coast), Sierra_3));
+  623 0.002596 0.928783 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_2)), Sierra_3), (North_Coast, South_Coast));
+  612 0.002550 0.931333 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, South_Coast)), Sierra_2), Sierra_3), Sierra_1);
+  604 0.002517 0.933850 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, South_Coast)), Sierra_1), Sierra_3), Sierra_2);
+  601 0.002504 0.936354 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), North_Coast), Sierra_3), (Sierra_1, Sierra_2));
+  580 0.002417 0.938771 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), ((Sierra_1, Sierra_2), South_Coast)), Sierra_3);
+  549 0.002288 0.941058 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), ((Sierra_1, Sierra_2), Sierra_3)), South_Coast);
+  508 0.002117 0.943175 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), North_Coast), (Sierra_1, Sierra_2)), South_Coast);
+  490 0.002042 0.945217 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), South_Coast), Sierra_3), Sierra_2), Sierra_1);
+  484 0.002017 0.947233 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), South_Coast), Sierra_3), Sierra_1), Sierra_2);
+  449 0.001871 0.949104 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), South_Coast), North_Coast), (Sierra_1, Sierra_2));
+  412 0.001717 0.950821 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_1, Sierra_2)), South_Coast), Sierra_3);
+  370 0.001542 0.952363 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), North_Coast), ((Sierra_1, Sierra_2), South_Coast));
+  363 0.001512 0.953875 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_1, Sierra_2)), Sierra_3), South_Coast);
+  343 0.001429 0.955304 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_3), South_Coast), Sierra_1), Sierra_2);
+  340 0.001417 0.956721 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_3), South_Coast), Sierra_2), Sierra_1);
+  338 0.001408 0.958129 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, Sierra_3)), South_Coast), (Sierra_1, Sierra_2));
+  320 0.001333 0.959463 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), (((Sierra_1, Sierra_2), South_Coast), Sierra_3));
+  294 0.001225 0.960688 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, South_Coast)), Sierra_1), (Sierra_2, Sierra_3));
+  291 0.001213 0.961900 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, South_Coast), Sierra_3)), Sierra_1), Sierra_2);
+  285 0.001187 0.963088 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, South_Coast)), Sierra_2), (Sierra_1, Sierra_3));
+  280 0.001167 0.964254 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), (((Sierra_1, Sierra_2), Sierra_3), South_Coast));
+  267 0.001112 0.965367 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, South_Coast)), (Sierra_1, (Sierra_2, Sierra_3)));
+  266 0.001108 0.966475 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, South_Coast), Sierra_3)), Sierra_2), Sierra_1);
+  261 0.001087 0.967563 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, South_Coast)), (Sierra_2, Sierra_3)), Sierra_1);
+  257 0.001071 0.968633 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, South_Coast)), ((Sierra_1, Sierra_3), Sierra_2));
+  228 0.000950 0.969583 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, South_Coast)), (Sierra_1, Sierra_3)), Sierra_2);
+  211 0.000879 0.970463 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_1, Sierra_2)), (Sierra_3, South_Coast));
+  195 0.000812 0.971275 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (((North_Coast, South_Coast), Sierra_1), Sierra_2));
+  191 0.000796 0.972071 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (((North_Coast, South_Coast), Sierra_2), Sierra_1));
+  181 0.000754 0.972825 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), North_Coast), (Sierra_1, Sierra_2)), Sierra_3);
+  174 0.000725 0.973550 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), South_Coast), Sierra_2), Sierra_1), Sierra_3);
+  168 0.000700 0.974250 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), South_Coast), Sierra_1), Sierra_2), Sierra_3);
+  161 0.000671 0.974921 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), Sierra_2), (North_Coast, South_Coast)), Sierra_1);
+  160 0.000667 0.975588 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), ((North_Coast, South_Coast), Sierra_1)), Sierra_2);
+  150 0.000625 0.976213 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), ((North_Coast, South_Coast), Sierra_2)), Sierra_1);
+  143 0.000596 0.976808 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), Sierra_2), Sierra_1), (North_Coast, South_Coast));
+  142 0.000592 0.977400 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), Sierra_1), Sierra_2), (North_Coast, South_Coast));
+  141 0.000588 0.977988 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (North_Coast, ((Sierra_1, Sierra_2), South_Coast)));
+  139 0.000579 0.978567 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_3), Sierra_2), Sierra_1), South_Coast);
+  132 0.000550 0.979117 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (Sierra_1, Sierra_2)), North_Coast), South_Coast);
+  130 0.000542 0.979658 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), North_Coast), ((Sierra_1, Sierra_2), Sierra_3));
+  117 0.000487 0.980146 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), Sierra_1), (North_Coast, South_Coast)), Sierra_2);
+  117 0.000487 0.980633 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_3), Sierra_1), Sierra_2), South_Coast);
+  114 0.000475 0.981108 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), Sierra_2), ((North_Coast, South_Coast), Sierra_1));
+  114 0.000475 0.981583 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), ((North_Coast, (Sierra_1, Sierra_2)), South_Coast));
+  112 0.000467 0.982050 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), ((Sierra_1, Sierra_2), (Sierra_3, South_Coast)));
+  106 0.000442 0.982492 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), South_Coast), Sierra_1), Sierra_3), Sierra_2);
+  105 0.000438 0.982929 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), South_Coast), Sierra_2), Sierra_3), Sierra_1);
+   95 0.000396 0.983325 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), Sierra_1), ((North_Coast, South_Coast), Sierra_2));
+   89 0.000371 0.983696 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_3), Sierra_1), South_Coast), Sierra_2);
+   89 0.000371 0.984067 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_3), Sierra_2), South_Coast), Sierra_1);
+   85 0.000354 0.984421 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, South_Coast), Sierra_1)), Sierra_2), Sierra_3);
+   83 0.000346 0.984767 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, South_Coast), Sierra_2)), Sierra_1), Sierra_3);
+   82 0.000342 0.985108 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, South_Coast), Sierra_1), Sierra_2)), Sierra_3);
+   80 0.000333 0.985442 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, Sierra_3), South_Coast)), (Sierra_1, Sierra_2));
+   80 0.000333 0.985775 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (Sierra_1, Sierra_2)), South_Coast), North_Coast);
+   79 0.000329 0.986104 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, South_Coast), Sierra_2), Sierra_1)), Sierra_3);
+   79 0.000329 0.986433 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, Sierra_3)), (Sierra_1, Sierra_2)), South_Coast);
+   71 0.000296 0.986729 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), South_Coast), (North_Coast, (Sierra_1, Sierra_2)));
+   69 0.000287 0.987017 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((Sierra_1, Sierra_2), Sierra_3)), North_Coast), South_Coast);
+   62 0.000258 0.987275 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), (North_Coast, (Sierra_1, Sierra_2))), South_Coast);
+   62 0.000258 0.987533 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), ((Sierra_1, Sierra_2), South_Coast)), North_Coast);
+   54 0.000225 0.987758 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), South_Coast), Sierra_1), (Sierra_2, Sierra_3));
+   54 0.000225 0.987983 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), North_Coast), South_Coast), Sierra_2), Sierra_1);
+   51 0.000212 0.988196 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), South_Coast), (Sierra_1, Sierra_2)), North_Coast);
+   51 0.000212 0.988408 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, Sierra_3)), ((Sierra_1, Sierra_2), South_Coast));
+   50 0.000208 0.988617 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), South_Coast), (Sierra_1, Sierra_3)), Sierra_2);
+   47 0.000196 0.988813 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), South_Coast), Sierra_2), (Sierra_1, Sierra_3));
+   47 0.000196 0.989008 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((Sierra_1, Sierra_2), Sierra_3)), South_Coast), North_Coast);
+   47 0.000196 0.989204 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), (North_Coast, South_Coast)), Sierra_1), Sierra_3);
+   47 0.000196 0.989400 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), South_Coast), ((Sierra_1, Sierra_3), Sierra_2));
+   45 0.000188 0.989588 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), North_Coast), South_Coast), Sierra_1), Sierra_2);
+   41 0.000171 0.989758 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), South_Coast), (Sierra_2, Sierra_3)), Sierra_1);
+   41 0.000171 0.989929 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, South_Coast), Sierra_1)), Sierra_3), Sierra_2);
+   41 0.000171 0.990100 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), (North_Coast, South_Coast)), Sierra_2), Sierra_3);
+   40 0.000167 0.990267 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, (Sierra_3, South_Coast))), (Sierra_1, Sierra_2));
+   39 0.000162 0.990429 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), Sierra_3), North_Coast), (Sierra_1, Sierra_2));
+   39 0.000162 0.990592 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, ((Sierra_1, Sierra_2), South_Coast))), Sierra_3);
+   38 0.000158 0.990750 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_3), Sierra_1), (Sierra_2, South_Coast));
+   38 0.000158 0.990908 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_3), Sierra_2), (Sierra_1, South_Coast));
+   37 0.000154 0.991063 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), South_Coast), (Sierra_1, (Sierra_2, Sierra_3)));
+   36 0.000150 0.991213 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_3, South_Coast)), Sierra_1), Sierra_2);
+   36 0.000150 0.991363 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), (North_Coast, Sierra_3)), (Sierra_1, Sierra_2));
+   33 0.000138 0.991500 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_3), (Sierra_1, South_Coast)), Sierra_2);
+   33 0.000138 0.991638 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_3, South_Coast)), Sierra_2), Sierra_1);
+   33 0.000138 0.991775 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), ((North_Coast, South_Coast), Sierra_1)), Sierra_3);
+   30 0.000125 0.991900 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_1), ((North_Coast, South_Coast), Sierra_2)), Sierra_3);
+   30 0.000125 0.992025 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), Sierra_2), (North_Coast, South_Coast)), Sierra_3);
+   29 0.000121 0.992146 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (North_Coast, (((Sierra_1, Sierra_2), South_Coast), Sierra_3)));
+   29 0.000121 0.992267 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, South_Coast), Sierra_2)), Sierra_3), Sierra_1);
+   28 0.000117 0.992383 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_3, South_Coast)), North_Coast), (Sierra_1, Sierra_2));
+   28 0.000117 0.992500 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), Sierra_3), (Sierra_1, (Sierra_2, South_Coast)));
+   27 0.000112 0.992613 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), North_Coast), Sierra_3), Sierra_2), Sierra_1);
+   26 0.000108 0.992721 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, South_Coast), Sierra_3), Sierra_1)), Sierra_2);
+   26 0.000108 0.992829 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, ((Sierra_1, Sierra_2), South_Coast)), Sierra_3));
+   25 0.000104 0.992933 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), Sierra_3), ((Sierra_1, South_Coast), Sierra_2));
+   25 0.000104 0.993038 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, South_Coast), Sierra_1), Sierra_2), Sierra_3));
+   25 0.000104 0.993142 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), Sierra_1), (North_Coast, South_Coast)), Sierra_3);
+   24 0.000100 0.993242 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_3), (Sierra_2, South_Coast)), Sierra_1);
+   24 0.000100 0.993342 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, South_Coast), Sierra_2), Sierra_1), Sierra_3));
+   24 0.000100 0.993442 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, South_Coast), Sierra_3), Sierra_2)), Sierra_1);
+   23 0.000096 0.993538 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, South_Coast), Sierra_3), Sierra_1), Sierra_2));
+   23 0.000096 0.993633 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), Sierra_1), ((North_Coast, South_Coast), Sierra_3));
+   22 0.000092 0.993725 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), North_Coast), Sierra_1), Sierra_2), South_Coast);
+   21 0.000087 0.993813 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, South_Coast), Sierra_3), Sierra_2), Sierra_1));
+   20 0.000083 0.993896 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, South_Coast), Sierra_1)), (Sierra_2, Sierra_3));
+   20 0.000083 0.993979 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, (Sierra_1, Sierra_2)), South_Coast), Sierra_3));
+   20 0.000083 0.994063 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (North_Coast, (((Sierra_1, Sierra_2), Sierra_3), South_Coast)));
+   20 0.000083 0.994146 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), North_Coast), Sierra_2), Sierra_1), South_Coast);
+   20 0.000083 0.994229 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_1, (Sierra_2, Sierra_3))), (North_Coast, South_Coast));
+   19 0.000079 0.994308 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), Sierra_2), Sierra_3), (North_Coast, South_Coast));
+   19 0.000079 0.994388 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_1), ((North_Coast, South_Coast), Sierra_3)), Sierra_2);
+   19 0.000079 0.994467 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, (Sierra_1, Sierra_2)), South_Coast)), Sierra_3);
+   19 0.000079 0.994546 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_1), Sierra_2), ((North_Coast, South_Coast), Sierra_3));
+   18 0.000075 0.994621 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((Sierra_1, Sierra_2), Sierra_3), South_Coast)), North_Coast);
+   18 0.000075 0.994696 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), ((North_Coast, South_Coast), Sierra_3)), Sierra_1);
+   17 0.000071 0.994767 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_1, Sierra_2)), Sierra_3), North_Coast), South_Coast);
+   17 0.000071 0.994838 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), (North_Coast, South_Coast)), Sierra_3), Sierra_1);
+   17 0.000071 0.994908 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), South_Coast), North_Coast), Sierra_2), Sierra_1);
+   17 0.000071 0.994979 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, South_Coast), ((Sierra_1, Sierra_3), Sierra_2)));
+   16 0.000067 0.995046 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((Sierra_1, Sierra_2), South_Coast), Sierra_3)), North_Coast);
+   16 0.000067 0.995113 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_1, Sierra_2)), (North_Coast, (Sierra_3, South_Coast)));
+   15 0.000063 0.995175 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_2), South_Coast), Sierra_1), Sierra_3);
+   15 0.000063 0.995238 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), South_Coast), North_Coast), Sierra_1), Sierra_2);
+   15 0.000063 0.995300 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, South_Coast), Sierra_2)), (Sierra_1, Sierra_3));
+   15 0.000063 0.995363 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, South_Coast), (Sierra_1, (Sierra_2, Sierra_3))));
+   15 0.000063 0.995425 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_2), Sierra_1), Sierra_3), South_Coast);
+   15 0.000063 0.995487 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_3)), Sierra_2), (North_Coast, South_Coast));
+   14 0.000058 0.995546 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, South_Coast), Sierra_2), (Sierra_1, Sierra_3)));
+   14 0.000058 0.995604 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), Sierra_3), (North_Coast, South_Coast)), Sierra_1);
+   14 0.000058 0.995663 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), North_Coast), Sierra_3), Sierra_1), Sierra_2);
+   14 0.000058 0.995721 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, South_Coast), Sierra_2), Sierra_3)), Sierra_1);
+   13 0.000054 0.995775 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((Sierra_1, Sierra_2), South_Coast)), North_Coast), Sierra_3);
+   13 0.000054 0.995829 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), Sierra_3), Sierra_2), (North_Coast, South_Coast));
+   13 0.000054 0.995883 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_2), (((North_Coast, South_Coast), Sierra_3), Sierra_1));
+   13 0.000054 0.995938 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, South_Coast), Sierra_2), Sierra_3), Sierra_1));
+   13 0.000054 0.995992 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_3)), (North_Coast, South_Coast)), Sierra_2);
+   13 0.000054 0.996046 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, Sierra_3), ((Sierra_1, Sierra_2), South_Coast)));
+   12 0.000050 0.996096 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), North_Coast), Sierra_1), South_Coast), Sierra_2);
+   12 0.000050 0.996146 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((Sierra_1, Sierra_2), South_Coast)), Sierra_3), North_Coast);
+   12 0.000050 0.996196 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), Sierra_1), Sierra_3), (North_Coast, South_Coast));
+   12 0.000050 0.996246 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_1), Sierra_2), South_Coast), Sierra_3);
+   11 0.000046 0.996292 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), (North_Coast, South_Coast)), Sierra_3), Sierra_2);
+   11 0.000046 0.996338 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, Sierra_3), South_Coast), (Sierra_1, Sierra_2)));
+   11 0.000046 0.996383 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, (Sierra_1, Sierra_2))), Sierra_3), South_Coast);
+   11 0.000046 0.996429 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_1), South_Coast), Sierra_2), Sierra_3);
+   11 0.000046 0.996475 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), Sierra_3), ((North_Coast, South_Coast), Sierra_1));
+   11 0.000046 0.996521 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), (North_Coast, (Sierra_2, South_Coast))), Sierra_1);
+   11 0.000046 0.996567 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_1, Sierra_2)), North_Coast), South_Coast), Sierra_3);
+   11 0.000046 0.996613 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, South_Coast), Sierra_1), Sierra_3), Sierra_2));
+   11 0.000046 0.996658 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_1), Sierra_3), ((North_Coast, South_Coast), Sierra_2));
+   10 0.000042 0.996700 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, ((Sierra_1, Sierra_2), Sierra_3)), South_Coast));
+   10 0.000042 0.996742 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, South_Coast), Sierra_1), (Sierra_2, Sierra_3)));
+   10 0.000042 0.996783 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, (Sierra_3, South_Coast)), (Sierra_1, Sierra_2)));
+   10 0.000042 0.996825 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_1), (((North_Coast, South_Coast), Sierra_3), Sierra_2));
+   10 0.000042 0.996867 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), North_Coast), Sierra_2), South_Coast), Sierra_1);
+   10 0.000042 0.996908 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, ((Sierra_1, Sierra_2), Sierra_3))), South_Coast);
+   10 0.000042 0.996950 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((Sierra_1, Sierra_3), Sierra_2)), (North_Coast, South_Coast));
+   10 0.000042 0.996992 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_2), Sierra_1), South_Coast), Sierra_3);
+   10 0.000042 0.997033 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), Sierra_3), (North_Coast, South_Coast)), Sierra_2);
+    9 0.000037 0.997071 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, (Sierra_1, Sierra_2))), South_Coast), Sierra_3);
+    9 0.000037 0.997108 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), Sierra_3), (North_Coast, (Sierra_1, Sierra_2)));
+    9 0.000037 0.997146 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), Sierra_3), (Sierra_1, Sierra_2)), North_Coast);
+    9 0.000037 0.997183 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), (Sierra_1, Sierra_2)), North_Coast), Sierra_3);
+    9 0.000037 0.997221 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), ((Sierra_1, Sierra_3), Sierra_2)), South_Coast);
+    9 0.000037 0.997258 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_1, Sierra_2)), Sierra_3), South_Coast), North_Coast);
+    9 0.000037 0.997296 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_1), (Sierra_2, Sierra_3)), (North_Coast, South_Coast));
+    8 0.000033 0.997329 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, South_Coast), Sierra_1), Sierra_3)), Sierra_2);
+    8 0.000033 0.997363 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_2, Sierra_3)), Sierra_1), South_Coast);
+    8 0.000033 0.997396 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), North_Coast), Sierra_2), Sierra_1), Sierra_3);
+    8 0.000033 0.997429 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_1), Sierra_3), South_Coast), Sierra_2);
+    8 0.000033 0.997463 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_2), Sierra_3), Sierra_1), South_Coast);
+    8 0.000033 0.997496 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_1, Sierra_2)), North_Coast), Sierra_3), South_Coast);
+    8 0.000033 0.997529 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_1), (((North_Coast, South_Coast), Sierra_2), Sierra_3));
+    8 0.000033 0.997563 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_1), (North_Coast, South_Coast)), (Sierra_2, Sierra_3));
+    8 0.000033 0.997596 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_1), Sierra_2), North_Coast), South_Coast);
+    8 0.000033 0.997629 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, Sierra_3), (Sierra_1, Sierra_2)), South_Coast));
+    8 0.000033 0.997663 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_2), Sierra_1), (Sierra_3, South_Coast));
+    8 0.000033 0.997696 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_2), South_Coast), (Sierra_1, Sierra_3));
+    7 0.000029 0.997725 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_1), Sierra_2), Sierra_3), South_Coast);
+    7 0.000029 0.997754 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_1), Sierra_3), Sierra_2), South_Coast);
+    7 0.000029 0.997783 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_3)), Sierra_1), Sierra_2), South_Coast);
+    7 0.000029 0.997813 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_3)), South_Coast), Sierra_1), Sierra_2);
+    7 0.000029 0.997842 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_3)), South_Coast), Sierra_2), Sierra_1);
+    7 0.000029 0.997871 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_2, South_Coast)), Sierra_3), Sierra_1);
+    7 0.000029 0.997900 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_1), Sierra_2), (Sierra_3, South_Coast));
+    7 0.000029 0.997929 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_2), (Sierra_1, South_Coast)), Sierra_3);
+    7 0.000029 0.997958 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_2)), (Sierra_3, South_Coast)), North_Coast);
+    7 0.000029 0.997988 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_2)), North_Coast), (Sierra_3, South_Coast));
+    7 0.000029 0.998017 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_2, Sierra_3)), (North_Coast, South_Coast)), Sierra_1);
+    7 0.000029 0.998046 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_2, Sierra_3)), Sierra_1), (North_Coast, South_Coast));
+    7 0.000029 0.998075 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), (North_Coast, (Sierra_1, Sierra_2))), Sierra_3);
+    7 0.000029 0.998104 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, Sierra_3), (Sierra_1, Sierra_2))), South_Coast);
+    7 0.000029 0.998133 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_2, Sierra_3)), ((North_Coast, South_Coast), Sierra_1));
+    7 0.000029 0.998163 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_3, South_Coast)), (North_Coast, (Sierra_1, Sierra_2)));
+    6 0.000025 0.998188 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), North_Coast), Sierra_1), (Sierra_2, South_Coast));
+    6 0.000025 0.998213 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_1, South_Coast)), Sierra_2), Sierra_3);
+    6 0.000025 0.998238 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_1, Sierra_3)), Sierra_2), South_Coast);
+    6 0.000025 0.998263 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_1, Sierra_3)), ((North_Coast, South_Coast), Sierra_2));
+    6 0.000025 0.998288 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, South_Coast), (Sierra_2, Sierra_3)), Sierra_1));
+    6 0.000025 0.998313 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, South_Coast), (Sierra_1, Sierra_3))), Sierra_2);
+    6 0.000025 0.998338 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_2), South_Coast), Sierra_3), Sierra_1);
+    6 0.000025 0.998363 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, (Sierra_1, Sierra_2)), (Sierra_3, South_Coast)));
+    6 0.000025 0.998388 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), North_Coast), Sierra_2), Sierra_3), Sierra_1);
+    6 0.000025 0.998413 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), (Sierra_1, Sierra_3)), (North_Coast, South_Coast));
+    6 0.000025 0.998438 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, (Sierra_1, Sierra_2)), Sierra_3)), South_Coast);
+    6 0.000025 0.998463 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), North_Coast), (Sierra_1, South_Coast)), Sierra_2);
+    6 0.000025 0.998488 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), (North_Coast, South_Coast)), (Sierra_1, Sierra_3));
+    6 0.000025 0.998513 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_1, Sierra_2)), ((North_Coast, Sierra_3), South_Coast));
+    6 0.000025 0.998538 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_2), ((North_Coast, South_Coast), (Sierra_1, Sierra_3)));
+    5 0.000021 0.998558 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_1), South_Coast), (Sierra_2, Sierra_3));
+    5 0.000021 0.998579 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, South_Coast), (North_Coast, ((Sierra_1, Sierra_2), Sierra_3)));
+    5 0.000021 0.998600 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_3, South_Coast)), (Sierra_1, Sierra_2)), North_Coast);
+    5 0.000021 0.998621 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), ((North_Coast, (Sierra_1, South_Coast)), Sierra_2));
+    5 0.000021 0.998642 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_2, South_Coast)), Sierra_1), Sierra_3);
+    5 0.000021 0.998663 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_1), Sierra_3), (Sierra_2, South_Coast));
+    5 0.000021 0.998683 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_2), (Sierra_3, South_Coast)), Sierra_1);
+    5 0.000021 0.998704 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), ((North_Coast, Sierra_1), South_Coast)), Sierra_2);
+    5 0.000021 0.998725 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_2), Sierra_1), South_Coast), North_Coast);
+    4 0.000017 0.998742 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_1), (Sierra_2, Sierra_3)), South_Coast);
+    4 0.000017 0.998758 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, (Sierra_1, Sierra_2))), (Sierra_3, South_Coast));
+    4 0.000017 0.998775 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), North_Coast), Sierra_1), Sierra_2), Sierra_3);
+    4 0.000017 0.998792 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_1, (Sierra_2, South_Coast))), Sierra_3);
+    4 0.000017 0.998808 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, Sierra_1), South_Coast), Sierra_2), Sierra_3));
+    4 0.000017 0.998825 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_1, (Sierra_2, Sierra_3))), South_Coast);
+    4 0.000017 0.998842 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), Sierra_3), Sierra_1), (North_Coast, South_Coast));
+    4 0.000017 0.998858 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_2, (Sierra_3, South_Coast))), Sierra_1);
+    4 0.000017 0.998875 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), (Sierra_1, Sierra_2)), Sierra_3), North_Coast);
+    4 0.000017 0.998892 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (Sierra_2, South_Coast)), North_Coast), Sierra_1);
+    4 0.000017 0.998908 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((Sierra_1, Sierra_2), (Sierra_3, South_Coast))), North_Coast);
+    4 0.000017 0.998925 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_2), Sierra_3), (Sierra_1, South_Coast));
+    4 0.000017 0.998942 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_1), South_Coast), Sierra_3), Sierra_2);
+    4 0.000017 0.998958 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_1), ((North_Coast, South_Coast), (Sierra_2, Sierra_3)));
+    4 0.000017 0.998975 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_3)), Sierra_1), South_Coast), Sierra_2);
+    4 0.000017 0.998992 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), ((Sierra_1, Sierra_2), Sierra_3)), North_Coast);
+    4 0.000017 0.999008 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_1), (Sierra_3, South_Coast)), Sierra_2);
+    3 0.000013 0.999021 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_3)), Sierra_2), Sierra_1), South_Coast);
+    3 0.000013 0.999033 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_2)), South_Coast), (North_Coast, Sierra_3));
+    3 0.000013 0.999046 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), North_Coast), Sierra_1), (Sierra_2, Sierra_3));
+    3 0.000013 0.999058 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), North_Coast), (Sierra_2, Sierra_3)), Sierra_1);
+    3 0.000013 0.999071 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), North_Coast), (Sierra_1, Sierra_3)), Sierra_2);
+    3 0.000013 0.999083 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), (North_Coast, (Sierra_1, South_Coast))), Sierra_2);
+    3 0.000013 0.999096 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), North_Coast), ((Sierra_1, South_Coast), Sierra_2));
+    3 0.000013 0.999108 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), North_Coast), (Sierra_1, (Sierra_2, South_Coast)));
+    3 0.000013 0.999121 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), North_Coast), Sierra_2), (Sierra_1, South_Coast));
+    3 0.000013 0.999133 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, North_Coast), Sierra_2), Sierra_3), South_Coast), Sierra_1);
+    3 0.000013 0.999146 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((Sierra_1, Sierra_2), South_Coast)), (North_Coast, Sierra_3));
+    3 0.000013 0.999158 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_2), (Sierra_1, Sierra_3)), South_Coast);
+    3 0.000013 0.999171 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (North_Coast, ((Sierra_1, Sierra_2), (Sierra_3, South_Coast))));
+    3 0.000013 0.999183 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), (((Sierra_1, Sierra_3), Sierra_2), South_Coast));
+    3 0.000013 0.999196 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), (((Sierra_1, South_Coast), Sierra_2), Sierra_3));
+    3 0.000013 0.999208 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), ((Sierra_1, (Sierra_2, Sierra_3)), South_Coast));
+    3 0.000013 0.999221 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), (Sierra_1, (Sierra_2, (Sierra_3, South_Coast))));
+    3 0.000013 0.999233 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_2), (((North_Coast, South_Coast), Sierra_1), Sierra_3));
+    3 0.000013 0.999246 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (((North_Coast, Sierra_2), Sierra_1), South_Coast));
+    3 0.000013 0.999258 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_1, Sierra_2)), South_Coast), North_Coast), Sierra_3);
+    3 0.000013 0.999271 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_3)), Sierra_2), South_Coast), Sierra_1);
+    3 0.000013 0.999283 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), ((North_Coast, (Sierra_2, South_Coast)), Sierra_1));
+    3 0.000013 0.999296 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), ((North_Coast, Sierra_1), (Sierra_2, South_Coast)));
+    3 0.000013 0.999308 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (North_Coast, (Sierra_1, (Sierra_2, South_Coast))));
+    3 0.000013 0.999321 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, South_Coast), ((North_Coast, (Sierra_1, Sierra_2)), Sierra_3));
+    3 0.000013 0.999333 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, South_Coast), ((North_Coast, Sierra_3), (Sierra_1, Sierra_2)));
+    3 0.000013 0.999346 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, (Sierra_1, Sierra_2)), Sierra_3), South_Coast));
+    3 0.000013 0.999358 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), South_Coast), Sierra_2), North_Coast), Sierra_1);
+    3 0.000013 0.999371 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, South_Coast), (Sierra_1, Sierra_3)), Sierra_2));
+    3 0.000013 0.999383 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_2), North_Coast), Sierra_1), South_Coast);
+    3 0.000013 0.999396 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_1), North_Coast), South_Coast), Sierra_2);
+    3 0.000013 0.999408 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), ((Sierra_1, South_Coast), Sierra_3)), Sierra_2);
+    3 0.000013 0.999421 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_1, (Sierra_3, South_Coast))), Sierra_2);
+    2 0.000008 0.999429 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_1), Sierra_2), South_Coast), North_Coast);
+    2 0.000008 0.999438 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_2, Sierra_3)), South_Coast), North_Coast), Sierra_1);
+    2 0.000008 0.999446 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), ((Sierra_1, Sierra_3), (Sierra_2, South_Coast)));
+    2 0.000008 0.999454 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, Sierra_2), (Sierra_1, South_Coast)), Sierra_3));
+    2 0.000008 0.999463 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), ((Sierra_1, Sierra_3), South_Coast)), Sierra_2);
+    2 0.000008 0.999471 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_1, Sierra_3)), ((North_Coast, Sierra_2), South_Coast));
+    2 0.000008 0.999479 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, (Sierra_1, South_Coast))), Sierra_2), Sierra_3);
+    2 0.000008 0.999488 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, Sierra_3)), (Sierra_1, South_Coast)), Sierra_2);
+    2 0.000008 0.999496 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), Sierra_1), ((Sierra_2, Sierra_3), South_Coast));
+    2 0.000008 0.999504 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), Sierra_2), ((North_Coast, Sierra_1), South_Coast));
+    2 0.000008 0.999513 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), ((North_Coast, Sierra_2), South_Coast)), Sierra_1);
+    2 0.000008 0.999521 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, (Sierra_3, South_Coast))), Sierra_2), Sierra_1);
+    2 0.000008 0.999529 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), South_Coast), ((North_Coast, Sierra_1), Sierra_2));
+    2 0.000008 0.999538 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_1, South_Coast)), (Sierra_2, Sierra_3));
+    2 0.000008 0.999546 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_1), North_Coast), Sierra_2), South_Coast);
+    2 0.000008 0.999554 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, Sierra_3)), (Sierra_2, South_Coast)), Sierra_1);
+    2 0.000008 0.999563 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), North_Coast), Sierra_2), (Sierra_1, Sierra_3));
+    2 0.000008 0.999571 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (((North_Coast, Sierra_1), South_Coast), Sierra_2));
+    2 0.000008 0.999579 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_2, South_Coast)), (Sierra_1, Sierra_3));
+    2 0.000008 0.999588 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_1, South_Coast)), Sierra_3), Sierra_2);
+    2 0.000008 0.999596 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), North_Coast), ((Sierra_1, Sierra_3), Sierra_2));
+    2 0.000008 0.999604 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_2), Sierra_1), North_Coast), South_Coast);
+    2 0.000008 0.999613 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_1, Sierra_3)), (Sierra_2, South_Coast));
+    2 0.000008 0.999621 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), South_Coast), Sierra_1), Sierra_2), North_Coast);
+    2 0.000008 0.999629 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), South_Coast), Sierra_1), North_Coast), Sierra_2);
+    2 0.000008 0.999638 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), (((Sierra_1, South_Coast), Sierra_3), Sierra_2));
+    2 0.000008 0.999646 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_1), North_Coast), Sierra_2), South_Coast), Sierra_3);
+    2 0.000008 0.999654 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), ((North_Coast, Sierra_2), (Sierra_1, South_Coast)));
+    2 0.000008 0.999663 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (Sierra_1, Sierra_2)), (North_Coast, Sierra_3)), South_Coast);
+    2 0.000008 0.999671 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, South_Coast), (Sierra_2, Sierra_3))), Sierra_1);
+    2 0.000008 0.999679 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), Sierra_1), (Sierra_2, South_Coast)), Sierra_3);
+    2 0.000008 0.999688 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, (Sierra_1, (Sierra_2, South_Coast))), Sierra_3));
+    2 0.000008 0.999696 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), (Sierra_2, Sierra_3)), (Sierra_1, South_Coast));
+    2 0.000008 0.999704 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), Sierra_2), ((Sierra_1, South_Coast), Sierra_3));
+    1 0.000004 0.999708 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_1, Sierra_2)), South_Coast), Sierra_3), North_Coast);
+    1 0.000004 0.999713 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (((North_Coast, Sierra_1), Sierra_2), South_Coast));
+    1 0.000004 0.999717 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (((North_Coast, Sierra_2), South_Coast), Sierra_1));
+    1 0.000004 0.999721 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), ((Sierra_1, South_Coast), Sierra_2)), Sierra_3);
+    1 0.000004 0.999725 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, Sierra_3)), Sierra_1), (Sierra_2, South_Coast));
+    1 0.000004 0.999729 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_1), South_Coast), Sierra_2), North_Coast);
+    1 0.000004 0.999733 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((North_Coast, ((Sierra_1, South_Coast), Sierra_2)), Sierra_3));
+    1 0.000004 0.999738 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_1)), Sierra_3), Sierra_2), South_Coast);
+    1 0.000004 0.999742 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_3), (North_Coast, ((Sierra_1, South_Coast), Sierra_2)));
+    1 0.000004 0.999746 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), Sierra_2), ((Sierra_1, Sierra_3), South_Coast));
+    1 0.000004 0.999750 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, ((((North_Coast, Sierra_2), South_Coast), Sierra_1), Sierra_3));
+    1 0.000004 0.999754 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (North_Coast, Sierra_1)), Sierra_2), Sierra_3), South_Coast);
+    1 0.000004 0.999758 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), Sierra_3), North_Coast), Sierra_2), Sierra_1);
+    1 0.000004 0.999763 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), Sierra_3), North_Coast), Sierra_1), Sierra_2);
+    1 0.000004 0.999767 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, North_Coast), Sierra_1), ((Sierra_2, South_Coast), Sierra_3));
+    1 0.000004 0.999771 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, South_Coast), North_Coast), Sierra_1), Sierra_3), Sierra_2);
+    1 0.000004 0.999775 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), Sierra_1), (North_Coast, Sierra_2)), South_Coast);
+    1 0.000004 0.999779 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), Sierra_2), (North_Coast, (Sierra_1, South_Coast)));
+    1 0.000004 0.999783 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), ((North_Coast, Sierra_1), Sierra_3)), Sierra_2);
+    1 0.000004 0.999788 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), Sierra_1), (North_Coast, (Sierra_2, South_Coast)));
+    1 0.000004 0.999792 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), Sierra_2), (Sierra_1, South_Coast)), North_Coast);
+    1 0.000004 0.999796 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), Sierra_2), North_Coast), (Sierra_1, South_Coast));
+    1 0.000004 0.999800 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), (Sierra_1, Sierra_2)), (North_Coast, Sierra_3));
+    1 0.000004 0.999804 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), North_Coast), (Sierra_2, South_Coast)), Sierra_1);
+    1 0.000004 0.999808 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, South_Coast), North_Coast), (Sierra_1, (Sierra_2, Sierra_3)));
+    1 0.000004 0.999813 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), South_Coast), (North_Coast, Sierra_2)), Sierra_1);
+    1 0.000004 0.999817 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, Sierra_1), South_Coast), Sierra_2)), Sierra_3);
+    1 0.000004 0.999821 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, Sierra_2), South_Coast), Sierra_1)), Sierra_3);
+    1 0.000004 0.999825 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (((North_Coast, Sierra_3), South_Coast), Sierra_2)), Sierra_1);
+    1 0.000004 0.999829 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), South_Coast), Sierra_1), (North_Coast, Sierra_2));
+    1 0.000004 0.999833 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (Sierra_1, South_Coast)), Sierra_2), North_Coast);
+    1 0.000004 0.999838 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (Sierra_1, South_Coast)), North_Coast), Sierra_2);
+    1 0.000004 0.999842 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (North_Coast, Sierra_2)), South_Coast), Sierra_1);
+    1 0.000004 0.999846 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_3), (North_Coast, Sierra_2)), Sierra_1), South_Coast);
+    1 0.000004 0.999850 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), (North_Coast, Sierra_1)), Sierra_2), Sierra_3);
+    1 0.000004 0.999854 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), Sierra_1), South_Coast), (North_Coast, Sierra_3));
+    1 0.000004 0.999858 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), (North_Coast, Sierra_3)), Sierra_1), Sierra_2);
+    1 0.000004 0.999863 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), Sierra_1), (North_Coast, Sierra_3)), South_Coast);
+    1 0.000004 0.999867 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), North_Coast), (Sierra_1, South_Coast)), Sierra_3);
+    1 0.000004 0.999871 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, Sierra_2), (Sierra_1, South_Coast))), Sierra_3);
+    1 0.000004 0.999875 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((North_Coast, Sierra_2), South_Coast)), (Sierra_1, Sierra_3));
+    1 0.000004 0.999879 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), South_Coast), Sierra_2), Sierra_1), North_Coast);
+    1 0.000004 0.999883 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_2), (North_Coast, Sierra_1)), South_Coast), Sierra_3);
+    1 0.000004 0.999888 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), Sierra_2), (North_Coast, Sierra_3)), South_Coast);
+    1 0.000004 0.999892 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), (Sierra_1, Sierra_3)), North_Coast), Sierra_2);
+    1 0.000004 0.999896 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), North_Coast), (Sierra_2, Sierra_3)), South_Coast);
+    1 0.000004 0.999900 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, Sierra_1), (Sierra_2, South_Coast)), North_Coast), Sierra_3);
+    1 0.000004 0.999904 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), ((North_Coast, Sierra_2), Sierra_1)), South_Coast);
+    1 0.000004 0.999908 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_3), ((North_Coast, Sierra_1), Sierra_2)), South_Coast);
+    1 0.000004 0.999913 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (North, (((North_Coast, (Sierra_1, South_Coast)), Sierra_2), Sierra_3));
+    1 0.000004 0.999917 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, ((Sierra_1, South_Coast), Sierra_3)), (North_Coast, Sierra_2));
+    1 0.000004 0.999921 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), Sierra_3), ((North_Coast, Sierra_1), South_Coast));
+    1 0.000004 0.999925 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), ((Sierra_1, Sierra_3), South_Coast)), North_Coast);
+    1 0.000004 0.999929 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (North_Coast, (Sierra_1, (Sierra_2, South_Coast)))), Sierra_3);
+    1 0.000004 0.999933 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), Sierra_2), (North_Coast, Sierra_1)), Sierra_3);
+    1 0.000004 0.999938 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, Sierra_2), ((North_Coast, Sierra_1), South_Coast)), Sierra_3);
+    1 0.000004 0.999942 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, South_Coast), Sierra_3), (North_Coast, Sierra_2)), Sierra_1);
+    1 0.000004 0.999946 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_2, Sierra_3)), South_Coast), Sierra_1);
+    1 0.000004 0.999950 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, Sierra_3), South_Coast)), Sierra_1), Sierra_2);
+    1 0.000004 0.999954 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, ((North_Coast, Sierra_3), South_Coast)), Sierra_2), Sierra_1);
+    1 0.000004 0.999958 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, North_Coast), (Sierra_1, Sierra_3)), South_Coast), Sierra_2);
+    1 0.000004 0.999963 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, (Sierra_2, (Sierra_3, South_Coast))), (North_Coast, Sierra_1));
+    1 0.000004 0.999967 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((North, (North_Coast, Sierra_1)), South_Coast), (Sierra_2, Sierra_3));
+    1 0.000004 0.999971 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_2, South_Coast)), North_Coast), Sierra_1), Sierra_3);
+    1 0.000004 0.999975 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), ((Sierra_1, (Sierra_2, South_Coast)), Sierra_3));
+    1 0.000004 0.999979 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), ((Sierra_1, (Sierra_3, South_Coast)), Sierra_2));
+    1 0.000004 0.999983 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, North_Coast), ((Sierra_1, South_Coast), (Sierra_2, Sierra_3)));
+    1 0.000004 0.999988 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_2, Sierra_3)), Sierra_1), South_Coast), North_Coast);
+    1 0.000004 0.999992 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((((North, (Sierra_2, Sierra_3)), North_Coast), South_Coast), Sierra_1);
+    1 0.000004 0.999996 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  ((North, Sierra_2), (((North_Coast, Sierra_1), South_Coast), Sierra_3));
+    1 0.000004 1.000000 6  (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)  (((((North, Sierra_3), Sierra_2), South_Coast), North_Coast), Sierra_1);
+
+(B) 1 species delimitations & their posterior probabilities
+240000 1.000000   6 (North North_Coast Sierra_1 Sierra_2 Sierra_3 South_Coast)
+
+(C) 6 delimited species & their posterior probabilities
+240000 1.000000 North
+240000 1.000000 Sierra_2
+240000 1.000000 Sierra_3
+240000 1.000000 North_Coast
+240000 1.000000 South_Coast
+240000 1.000000 Sierra_1
+
+(D) Posterior probability for # of species
+P[1] = 0.000000  prior[1] = 0.130435
+P[2] = 0.000000  prior[2] = 0.130435
+P[3] = 0.000000  prior[3] = 0.173913
+P[4] = 0.000000  prior[4] = 0.217391
+P[5] = 0.000000  prior[5] = 0.217391
+P[6] = 1.000000  prior[6] = 0.130435
