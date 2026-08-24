@@ -1,0 +1,8 @@
+Folder: 01_stacks_qc_snp_calling
+
+Files:
+- make_stacks_publication_tables.R
+- preflight_exclusion_check_2026-02-26.sh
+- preflight_runtime_dependencies_2026-02-27.sh
+- run_sample_missingness_outliers.R
+- run_sample_missingness_outliers.py

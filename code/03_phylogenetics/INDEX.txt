@@ -1,0 +1,7 @@
+Folder: 03_phylogenetics
+
+Files:
+- build_biallelic_alignment.py
+- plot_iqtree_bootstrap_colored_2026-03-01.R
+- plot_ml_tree_unrooted.R
+- run_iqtree_ml_bootstrap.sh

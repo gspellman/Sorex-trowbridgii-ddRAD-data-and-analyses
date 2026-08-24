@@ -1,0 +1,2 @@
+best_k	n_pcs	selection
+7	20	max_average_silhouette

@@ -1,0 +1,18 @@
+Folder: 07_eems
+
+Files:
+- EEMS_extension5_workflow_README.txt
+- EEMS_methods_results_summary_2026-07-29.md
+- diagnose_eems_ess200_2026-07-29.R
+- diagnose_eems_ess200_extension1_2026-07-29.R
+- diagnose_eems_ess200_extension2_2026-07-30.R
+- diagnose_eems_ess200_extension3_2026-07-30.R
+- diagnose_eems_ess200_extension4_2026-08-04.R
+- diagnose_eems_ess200_extension5_2026-08-05.R
+- plot_eems_extension5_publication_2026-08-10.R
+- run_eems_ess200_extension1_2026-07-29.R
+- run_eems_ess200_extension2_2026-07-30.R
+- run_eems_ess200_extension3_2026-07-30.R
+- run_eems_ess200_extension4_2026-08-04.R
+- run_eems_ess200_extension5_2026-08-05.R
+- run_eems_ess200_primary_2026-07-29.R

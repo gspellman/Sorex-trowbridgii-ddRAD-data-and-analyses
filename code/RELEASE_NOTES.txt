@@ -1,0 +1,17 @@
+Publication code release: 2026-08-10
+
+This is the single folder intended for manuscript code sharing. It was built
+from the final MVZ216210-excluded workflows and the latest accepted EEMS
+Extension 5 plotting code.
+
+Excluded from this release:
+- legacy pre-exclusion analysis scripts;
+- duplicate historical script versions;
+- NeighborNet workflows;
+- standalone Random Forest species-delimitation summaries and figures;
+- BFD* workflows and results that did not meet the ESS criterion;
+- superseded EEMS MCMC output folders; and
+- third-party software source trees.
+
+The earlier analysis_code_archive folders remain internal provenance archives
+and should not be used as the public release without additional curation.

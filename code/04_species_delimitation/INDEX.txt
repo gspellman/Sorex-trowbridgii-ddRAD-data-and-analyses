@@ -1,0 +1,6 @@
+Folder: 04_species_delimitation
+
+Files:
+- run_bpp_fixedtree_ess.R
+- run_bpp_iqtree_guide.R
+- run_speedemon_delimitr_unlinked.py

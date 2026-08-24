@@ -1,0 +1,10 @@
+Folder: 02_population_structure
+
+Files:
+- make_faststructure_10rep_stacked_K5_K6_2026-02-27.R
+- make_popcluster_native_compoplots_K6_K7_K8_2026-02-27.R
+- plot_pca_matrix.R
+- run_core_population_analyses.R
+- run_dapc_compoplot_bestK_2026-02-27.R
+- run_faststructure_summary_10rep_2026-02-27.R
+- run_popcluster_native_2026-02-27.R

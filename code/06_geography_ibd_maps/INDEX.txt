@@ -1,0 +1,8 @@
+Folder: 06_geography_ibd_maps
+
+Files:
+- make_three_method_ancestry_maps_new_grayscale_tight_2026-03-02.py
+- make_three_method_ancestry_pie_maps_side_by_side_unified_palette_2026-03-02.py
+- run_ibd_excluding_MVZ216210_2026-03-02.R
+- run_ibd_excluding_MVZ216210_2026-03-02.py
+- run_maps_and_ibd_from_coordinates.py

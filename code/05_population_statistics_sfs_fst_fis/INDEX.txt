@@ -1,0 +1,9 @@
+Folder: 05_population_statistics_sfs_fst_fis
+
+Files:
+- make_population_snp_diversity_table.R
+- make_population_snp_diversity_table.py
+- plot_fst_fis_matrix.R
+- run_fst_fis_permutations.R
+- run_pairwise_fst_manhattan_and_overlap.py
+- run_population_statistics_and_sfs.py

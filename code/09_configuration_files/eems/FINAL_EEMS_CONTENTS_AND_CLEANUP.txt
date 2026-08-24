@@ -1,0 +1,21 @@
+FINAL EEMS RUN
+
+Accepted analysis directory:
+eems_analysis_ess200_extension5_2026-08-05
+
+This directory contains the retained final EEMS estimates, MCMC logs,
+diagnostic summaries, publication figures, tables, and a self-contained copy
+of the analysis inputs. The data/ directory contains the coordinate,
+dissimilarity, sample-order, and habitat-boundary files. The fixed_grid/
+directory contains the deme and edge files used by the analysis.
+
+The final retained analysis excluded MVZ216210 and included 98 samples. The
+accepted combined-chain effective sample size was 318.1076. The accepted
+rank-normalized split R-hat was 1.047568, as documented in the final
+diagnostic outputs.
+
+After the final estimates and publication figures were accepted, the base run
+and Extensions 1-4 were deleted as superseded restart-chain intermediates.
+Their reproducibility scripts remain in the organized code archives. Original
+parameter and run-control files in this directory are retained unchanged as
+historical records of the actual restart lineage.

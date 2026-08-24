@@ -1,0 +1,6 @@
+criterion	value
+chooseK_mode_components	6
+mean_marginal_likelihood	8
+mean_cv_error	10
+selected_bestK	6
+selected_best_rep	4
