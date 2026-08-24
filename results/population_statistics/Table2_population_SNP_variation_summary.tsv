@@ -1,0 +1,7 @@
+Population	N_samples	Total_biallelic_SNP_sites	Polymorphic_SNP_sites	Percent_polymorphic_sites	Mean_missing_genotypes_pct	Mean_sample_missingness_pct	SD_sample_missingness_pct	Mean_called_biallelic_SNPs_per_sample	SD_called_biallelic_SNPs_per_sample	Mean_variable_SNP_genotypes_per_sample	SD_variable_SNP_genotypes_per_sample	Mean_MAF_polymorphic_sites	Mean_observed_heterozygosity_polymorphic	Private	Pi	Fis	STACKS_Mean_called_individuals_per_locus	STACKS_locus_missingness_pct
+North	19	16570	8928	53.8805	32.5873	32.5873	2.0457	15829.8421	480.3751	2814.8947	279.8118	0.1487	0.1552	1058	8e-04	8e-04	18.2812	3.7833
+North_Coast	14	17326	9120	52.6377	29.2339	29.2339	1.0675	16617.2857	250.6811	3452.9286	135.6656	0.209	0.2395	1085	0.0012	7e-04	13.4507	3.9238
+Sierra_1	15	18163	4585	25.2436	24.7673	24.7673	1.0503	17666.1333	246.6324	2236.2667	162.305	0.1801	0.17	1046	5e-04	5e-04	15.1248	-0.8317
+Sierra_2	12	18240	6563	35.9814	25.3325	25.3325	1.1317	17533.4167	265.741	3104	119.8294	0.1926	0.2363	983	7e-04	3e-04	11.4838	4.3016
+Sierra_3	31	17831	12033	67.4836	27.9908	27.9908	1.5067	16909.1935	353.804	3673.9677	202.5905	0.1631	0.2063	1467	0.0012	6e-04	28.9573	6.5893
+South_Coast	8	17376	3567	20.5283	27.9783	27.9783	1.2191	16912.125	286.2613	1813.75	128.8817	0.2314	0.1446	1613	5e-04	6e-04	7.8047	2.4411

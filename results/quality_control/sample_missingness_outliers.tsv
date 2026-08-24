@@ -1,0 +1,2 @@
+Sample	N_sites	N_missing	Missingness	Callrate	Population	Outlier_IQR	Missingness_Z	Outlier_Z3
+UAM41739	23482	9385	0.399667830678818	0.600332169321182	North	TRUE	3.96903463588023	TRUE

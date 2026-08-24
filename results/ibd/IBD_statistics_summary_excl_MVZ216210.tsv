@@ -1,0 +1,2 @@
+Dataset	Excluded_sample	N_samples	N_pairwise_comparisons	N_SNPs_after_filtering	Pearson_r	Pearson_p	Spearman_rho	Spearman_p	Mantel_r	Mantel_p_permutation	Mantel_permutations	Linear_slope	Linear_intercept	Linear_r2	Linear_p	Linear_slope_stderr
+stacks_refmap_sorex_excl_MVZ216210	MVZ216210	98	4753	12053	0.328448584287684	6.00568842510624e-120	0.398760019905786	6.36062403160292e-181	0.328448584287684	2e-04	4999	0.000117034725978033	0.215491717852783	0.107878472520584	6.00568842510007e-120	4.88277646722315e-06

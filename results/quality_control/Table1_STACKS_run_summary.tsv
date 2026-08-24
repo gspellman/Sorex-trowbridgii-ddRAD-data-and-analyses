@@ -1,0 +1,23 @@
+Metric	Value
+Run start	Mon Feb 23 08:15:41 MST 2026
+Run end	Mon Feb 23 13:56:48 MST 2026
+Reference genome	Sorex_ornatus (GCA_041430635.1)
+Input samples	100
+Populations	6
+Total BAM records	425551495
+Primary alignments retained	31635522
+Retained primary alignments (%)	7.5
+Loci built (gstacks)	985877
+Loci genotyped (gstacks)	985877
+Per-sample coverage mean (x)	9.6
+Per-sample coverage min (x)	1.8
+Per-sample coverage max (x)	15.4
+populations: min samples per pop	0.80
+populations: min populations per locus	1
+populations: min MAF	0.05
+Loci removed by filters	946352
+Total loci evaluated	985877
+Loci retained	39525
+Total sites in retained loci	3988944
+Sites filtered	901432
+Variant sites retained	23482

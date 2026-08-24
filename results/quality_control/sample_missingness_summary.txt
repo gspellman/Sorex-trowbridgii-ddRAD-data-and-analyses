@@ -1,0 +1,13 @@
+Per-sample missingness summary (full dataset)
+ VCF: /Users/gspellman/Trowbridgii_analyses/Stacks analysis of ddRAD data/stacks_refmap_sorex_excl_MVZ216210_2026-02-26_clean/populations.snps.vcf
+ Samples: 99
+ Sites: 23482
+ Mean missingness: 0.282371
+ Median missingness: 0.278596
+ Q1: 0.261221
+ Q3: 0.298739
+ IQR: 0.037518
+ IQR lower bound: 0.204944
+ IQR upper bound: 0.355017
+ IQR outliers: 1
+ |Z| > 3 outliers: 1
