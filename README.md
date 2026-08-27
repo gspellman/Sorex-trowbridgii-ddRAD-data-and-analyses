@@ -60,34 +60,8 @@ Run the release audit after cloning:
 bash validate_repository.sh
 ```
 
-## Data exclusions
-
-- Raw FASTQ reads and the external reference assembly are not redistributed.
-- Large MCMC chains, software installations, geographic raster tiles, and
-  intermediate replicate files are omitted.
-- BFD* is omitted because it did not meet the required ESS criterion.
-- NeighborNet and standalone Random Forest delimitation results were removed
-  from the final reported analyses and are not included.
-- EEMS primary and extension scripts remain in `code/07_eems/` because they
-  document the restart lineage leading to the accepted Extension 5 estimate;
-  superseded MCMC output directories are not included.
-
-## Geographic-data notice
-
-`data/metadata/sample_geographic_coordinates.tsv` contains exact locality
-coordinates. Confirm that specimen-locality and permitting policies allow
-public release before making this repository public. If exact coordinates are
-sensitive, replace this file with an appropriately generalized version and
-update the manifest.
 
 ## Citation and licensing
 
-Add the final article citation and DOI to `CITATION.cff` before publication.
-Select an explicit software/data license before making the repository public;
-see `docs/RELEASE_CHECKLIST.md`. No license is assigned by this preparation
-step.
-
-Codex was used to help correct code and ensure analyses ran smoothly. All
-analytical decisions, validation, and interpretation remain the responsibility
-of the authors.
+The final article citation will be provided upon publication.
 
